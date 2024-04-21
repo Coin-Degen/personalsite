@@ -1,70 +1,55 @@
-# urFolio v2
+# React Developer Portfolio template
+#### Live Demo https://react-portfolio-v1.netlify.app/
+#### Figma Design https://www.figma.com/community/file/1116246660507537002
+### Preview ( Dark Mode )
 
-[![GitHub license](https://img.shields.io/github/license/alsiam/urFolio)](https://github.com/alsiam/urFolio/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/alsiam/urFolio)](https://github.com/alsiam/urFolio/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/alsiam/urFolio)](https://github.com/alsiam/urFolio/issues)
-[![GitHub forks](https://img.shields.io/github/forks/alsiam/urFolio)](https://github.com/alsiam/urFolio/network)
+<img src="/preview.gif" alt="preview" width="600px" />
 
-A free and open-source portfolio template for developers, now powered by Next.js. View the live demo: [urfolio.vercel.app](https://urfolio.vercel.app)
+## Follow Below instructions to add your deatils in the portfolio.
 
-## Table of Contents
+### Change and customize every section according to your need, All you need to do is edit `/src/Details.js`
 
-- [Features](#features)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+#### Open `/src/Details.js` & modify it as per your need.
 
-## Features
+```javascript
+/ Enter your Personal Details here
+export const personalDetails = {
+  name: "Pavan MG",
+  tagline: "I build things for web",
+  img: profile,
+  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+  when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+};
 
-- Clean and modern design
-- Responsive layout
-- Developer-friendly
-- Migrated to Next.js for improved performance and maintainability
-- Sections for projects, skills, and contact information
+// Enter your Social Media URLs here
+export const socialMediaUrl = {
+  linkdein: "https://www.linkedin.com/",
+  github: "https://www.github.com/",
+  twitter: "https://twitter.com/",
+  instagram: "https://www.instagram.com/",
+};
 
-## Demo
+// Enter your Work Experience here
+export const workDetails = [
+  {
+    Position: "Frontend Web Developer",
+    Company: `Company Name here`,
+    Location: "Bengaluru",
+    Type: "Full Time",
+    Duration: "Sep 2021 - Dec 2021",
+  }
+];
 
-Visit the live demo: [urfolio.vercel.app](https://urfolio.vercel.app)
+// Enter your Education Details here
+export const eduDetails = { ... };
 
-## Installation
+// Tech Stack and Tools
+export const techStackDetails = { ... };
 
-To get started, follow these steps:
+// Enter your Project Details here
+export const projectDetails = [ ... ];
 
-1. Clone the repository: `git clone https://github.com/alsiam/urFolio.git`
-2. Navigate to the project folder: `cd urFolio`
-3. Install dependencies: `npm install`
-4. Run the development server: `npm run dev`
-5. Open your browser and visit [http://localhost:3000](http://localhost:3000)
-
-## Usage
-
-1. Replace placeholder content in the `src/pages/index.js` file with your information.
-2. Customize the styles in the `styles` directory to match your preferences.
-3. Add your projects, skills, and other relevant information in the appropriate sections.
-
-## Customization
-
-- **Colors:** Modify the color scheme in the `styles/globals.css` file.
-- **Fonts:** Change the fonts by updating the `styles/globals.css` file.
-- **Images:** Replace the placeholder images in the `public/img` directory with your own.
-
-## Contributing
-
-Contributions are welcome! Please check the [Contribution Guidelines](CONTRIBUTING.md) for more details.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgements
-
-- Thanks to [Open Source Initiative](https://opensource.org/) for their guidelines on open-source licensing.
-- Special thanks to [Vercel](https://vercel.com/) for providing free hosting for the live demo.
-
----
-
-**Feel free to use this template for your own portfolio and showcase your work! If you encounter any issues or have suggestions for improvement, please open an issue or submit a pull request. Happy coding!**
+// Enter your Contact Details here
+export const contactDetails = { ... };
+```
