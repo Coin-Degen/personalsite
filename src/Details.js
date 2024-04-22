@@ -62,14 +62,14 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Senior Frontend Web Developer",
+    Position: "Senior Frontend Developer",
     Company: `ZigZagExchange`,
     Location: "Los Angeles, CA",
     Type: "remote",
     Duration: "May 2022 - Dec 2023",
   },
   {
-    Position: "Senior Frontend Web Developer",
+    Position: "Senior Frontend Developer",
     Company: `DataUnion`,
     Location: "Singapore",
     Type: "remote",
