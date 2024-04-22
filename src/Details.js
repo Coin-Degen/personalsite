@@ -92,7 +92,7 @@ export const workDetails = [
   {
     Position: "Frontend Developer",
     Company: `Callisto Enterprise`,
-    Location: "San Mateo,CA",
+    Location: "Austin,TX",
     Type: "remote",
     Duration: "Mar 2022 - Jul 2022",
   },
